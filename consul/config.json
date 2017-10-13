@@ -1,0 +1,18 @@
+{
+  "data_dir": "/consul/data",
+  "client_addr": "0.0.0.0",
+  "ports": {
+    "http"  : 8501,
+    "https" : 8500,
+	"dns"   : 53
+ },
+  "acl_default_policy": "deny",
+  "acl_datacenter": "dc1",
+  "acl_master_token": "d9f1928e-1f84-407c-ab50-9579de563df5",
+  "key_file" : "/consul/config/ssl/key_file.key",
+  "cert_file": "/consul/config/ssl/cert_file.cer",
+  "recursor": "8.8.8.8",
+  "disable_update_check": true,
+  "log_level": "INFO",
+  "enable_syslog": false
+}
